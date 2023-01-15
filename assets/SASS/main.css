@@ -18,8 +18,8 @@ body {
   height: 50px;
   border: none;
   outline: none;
-  background-color: #3c6b5b;
-  color: white;
+  background-color: #57ab8d;
+  color: #eff0f3;
   border-radius: 10px;
   font-size: 18px;
   font-weight: bold;
@@ -29,15 +29,18 @@ body {
 }
 
 .button__propio:hover {
-  background-color: white;
+  background-color: #eff0f3;
   color: #57ab8d;
   border: 2px solid #57ab8d;
   border-radius: 20px;
 }
 
 .button__propio a {
-  color: white;
+  color: #eff0f3;
   text-decoration: none;
+}
+.button__propio a:hover {
+  color: #57ab8d;
 }
 
 .button__index {
@@ -92,6 +95,15 @@ h1 {
   margin-right: 20px;
   align-content: center;
 }
+@media only screen and (min-width: 768px) {
+  .conteiner__clases {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 5%;
+  }
+}
 
 .conteiner__clases__move {
   display: flex;
@@ -103,10 +115,20 @@ h1 {
   background: linear-gradient(#dac6b8, #a0b1ab);
   border-radius: 10px;
 }
+@media only screen and (min-width: 768px) {
+  .conteiner__clases__move {
+    width: 30%;
+  }
+}
 
 main div div img {
   padding-left: 10px;
   width: 90px;
+}
+@media only screen and (min-width: 768px) {
+  main div div img {
+    width: 20%;
+  }
 }
 
 main div div p {
@@ -116,27 +138,6 @@ main div div p {
   padding-left: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-  .conteiner__clases {
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-right: 30px;
-    gap: 5%;
-  }
-  .conteiner__clases__move {
-    width: 30%;
-  }
-  .conteiner__clases__gp {
-    width: 30%;
-  }
-  .conteiner__clases__agencia {
-    width: 30%;
-  }
-  main div div img {
-    width: 20%;
-  }
-}
 .p__contacto {
   padding-left: 20px;
 }
@@ -194,7 +195,6 @@ table {
   font-size: 17px;
   margin-bottom: 80px;
 }
-
 @media only screen and (min-width: 768px) {
   table {
     font-size: 25px;
@@ -205,6 +205,7 @@ table {
     font-size: 30px;
   }
 }
+
 table th {
   background-color: #de8244;
   border-radius: 10%;

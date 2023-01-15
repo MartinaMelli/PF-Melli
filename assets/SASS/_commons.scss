@@ -34,8 +34,8 @@ body {
     height: 50px;
     border: none;
     outline: none;
-    background-color: #3c6b5b;
-    color: white;
+    background-color: $color-verde;
+    color: $color-fondo;
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -45,16 +45,20 @@ body {
 }
 
 .button__propio:hover {
-    background-color: white;
-    color: #57ab8d;
-    border: 2px solid #57ab8d;
+    background-color: $color-fondo;
+    color: $color-verde;
+    border: 2px solid $color-verde;
     border-radius: 20px;
 }
 
 
 .button__propio a {
-    color: white;
+    color: $color-fondo;
     text-decoration: none;
+
+    &:hover{
+        color: $color-verde
+    }
 }
 
 .button__index {
