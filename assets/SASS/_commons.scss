@@ -1,0 +1,62 @@
+//Variables de colores
+
+$color-naranja: #de8244;
+$color-verde: #57ab8d;
+$color-fondo: #eff0f3;
+$color-degrade1: #dac6b8;
+$color-degrade2: #a0b1ab;
+
+body {
+    background-color: $color-fondo;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px auto 130px;
+    grid-template-areas:
+
+        "cabecera"
+        "cuerpo"
+        "pie"
+
+    ;
+}
+
+/* buttons */
+
+.button__propio {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #3c6b5b;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.button__propio:hover {
+    background-color: white;
+    color: #57ab8d;
+    border: 2px solid #57ab8d;
+    border-radius: 20px;
+}
+
+
+.button__propio a {
+    color: white;
+    text-decoration: none;
+}
+
+.button__index {
+    padding-left: 90px;
+}

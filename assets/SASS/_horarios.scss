@@ -1,0 +1,50 @@
+@use '_commons' as c;
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width:768px) {
+    table {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    table {
+        font-size: 30px;
+    }
+}
+
+table th {
+    background-color: c.$color-naranja;
+    border-radius: 10%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+table td {
+    border-radius: 10%;
+    text-align: center;
+}
+
+.conteiner__table__1 {
+    background-color: #dfa279;
+}
+
+.conteiner__table__2 {
+    background-color: #f8caab;
+}
+
+.td__modified {
+    background-color: c.$color-naranja;
+}

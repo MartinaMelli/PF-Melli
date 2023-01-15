@@ -1,0 +1,17 @@
+@use '_commons' as c;
+
+#pie {
+    grid-area: pie;
+    background-color: c.$color-naranja;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 15px;
+
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}

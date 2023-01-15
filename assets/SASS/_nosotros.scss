@@ -1,0 +1,33 @@
+@use '_commons' as c;
+
+.cuerpo__nosotros {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width:1280px) {
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+}
+
+#p__nosotros {
+    font-size: 20px;
+    width: 100%;
+    padding-left: 20px;
+
+    @media only screen and (min-width:1280px) {
+        width: 50%;
+    }
+
+}
+
+#img__nosotros {
+    padding-top: 30px;
+    width: 100%;
+
+    @media only screen and (min-width:1280px) {
+        width: 30%;
+
+    }
+
+}
