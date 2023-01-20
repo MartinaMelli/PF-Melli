@@ -12,6 +12,10 @@ body {
   grid-template-areas: "cabecera" "cuerpo" "pie";
 }
 
+.navbar {
+  flex-wrap: nowrap;
+}
+
 /* buttons */
 .button__propio {
   width: 180px;
@@ -44,7 +48,12 @@ body {
 }
 
 .button__index {
-  padding-left: 90px;
+  padding-left: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .button__index {
+    padding-left: 300px;
+  }
 }
 
 #pie {
@@ -54,6 +63,7 @@ body {
   padding-left: 20px;
   width: 100%;
   font-size: 15px;
+  text-align: center;
 }
 
 footer a {
@@ -75,11 +85,25 @@ main img {
   font-size: 18px;
   padding-left: 20px;
   display: inline-block;
-  padding-top: 0px;
+  padding-top: px;
+}
+@media only screen and (min-width: 768px) {
+  #conteiner__p__index {
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
 
 h1 {
-  padding-left: 15px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
 }
 
 #conteiner__clases {
@@ -139,11 +163,11 @@ main div div p {
 }
 
 .p__contacto {
-  padding-left: 20px;
+  text-align: center;
 }
 
 form {
-  padding-left: 30px;
+  text-align: center;
 }
 
 input,
@@ -249,6 +273,8 @@ table td {
 @media only screen and (min-width: 1280px) {
   #p__nosotros {
     width: 50%;
+    padding-top: 30px;
+    text-align: center;
   }
 }
 

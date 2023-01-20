@@ -14,5 +14,15 @@ main img {
     font-size: 18px;
     padding-left: 20px;
     display: inline-block;
-    padding-top: 0px;
+    padding-top: px;
+
+    @media only screen and (min-width:768px){
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
 }
+
+

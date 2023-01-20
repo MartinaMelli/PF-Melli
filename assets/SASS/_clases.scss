@@ -1,7 +1,11 @@
 @use '_commons' as c;
 
 h1 {
-    padding-left: 15px;
+    text-align: center;
+    @media only screen and (min-width:768px){
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
 }
 
 #conteiner__clases {
